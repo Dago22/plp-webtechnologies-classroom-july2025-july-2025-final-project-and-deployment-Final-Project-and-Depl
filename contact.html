@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — YsherTrend Clothing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="YsherTrend logo" class="logo" />
+        <h1>EverTrend</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="actions">
+        <button id="cartBtn4" aria-label="Open cart">Cart (<span id="cartCount4">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h2>Get in touch</h2>
+    <p>Have questions about size, shipping, or returns? Send us a message and we'll reply within 2 business days.</p>
+
+    <form id="contactForm" class="contact-form" action="#" onsubmit="handleContact(event)">
+      <label>
+        Name
+        <input type="text" id="name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" id="email" required />
+      </label>
+      <label>
+        Message
+        <textarea id="message" rows="5" required></textarea>
+      </label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>EverTrend</strong>
+        <p>Modern clothing for everyday life.</p>
+      </div>
+      <div>
+        <p>Contact: <a href="mailto:kitemaall22@gmail.com">kitemaall22@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

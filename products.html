@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — YsherTrend Clothing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="YsherTrend logo" class="logo" />
+        <h1>EverTrend</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="actions">
+        <button id="cartBtn2" aria-label="Open cart">Cart (<span id="cartCount2">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container products-page">
+    <h2>All Products</h2>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search products..." />
+      <select id="sort">
+        <option value="default">Sort: Featured</option>
+        <option value="price-asc">Price: Low → High</option>
+        <option value="price-desc">Price: High → Low</option>
+      </select>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <!-- products populated by JS -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>YsherTrend</strong>
+        <p>Modern clothing for everyday life.</p>
+      </div>
+      <div>
+        <p>Contact: <a href="mailto:kitemaall22@gmail.com">kitemaall22@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Modal -->
+  <div id="cartModal2" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close" id="closeCart2">&times;</button>
+      <h3>Your Cart</h3>
+      <div id="cartItems2"></div>
+      <div class="cart-footer">
+        <strong>Total: Tsh<span id="cartTotal2">0.00</span></strong>
+        <button id="checkoutBtn2" class="btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
