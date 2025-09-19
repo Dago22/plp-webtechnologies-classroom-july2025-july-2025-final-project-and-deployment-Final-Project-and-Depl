@@ -1,4 +1,4 @@
-# EverTrend — Clothing Store (Demo)
+# YsherTrend — Clothing Store (Demo)
 
 This is a professional, responsive multi-page clothing store demo built with **HTML5**, **CSS**, and **vanilla JavaScript**.
 
@@ -20,7 +20,8 @@ clothing-store/
 │── /js/script.js
 │── /images (placeholder assets)
 │── README.md
-```
+
+Project link: yshertrend.netlify.app
 
 ## How to use
 1. Extract the files and review the code.
